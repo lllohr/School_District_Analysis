@@ -11,21 +11,37 @@ According to the specifications of the project, the previous school analysis nee
 ### Results: 
 
 - How is the district summary affected?
+
 The district summary was impacted in several ways. The first is that the total students changed from 39,170 to 38,709. The average math score changed from 79.0 to 78.9. The passing math percentage changed from 75% to 73.9%. The overall passing reading percentage changed from 85.8% to 84.7%. The overall passing percentage changed from 65.2% to to 64.9% 
+
+Original data:
 ![District Summary Original](https://github.com/lllohr/School_District_Analysis/blob/main/Resources/district_summary_original.png)
 
+After dropping the Thomas High School 9th grade scores:
 ![District Summary Revised](https://github.com/lllohr/School_District_Analysis/blob/main/Resources/district_summary_revised.png)
 
 - How is the school summary affected?
+
+The per school summary is impacted only for the Thomas High School statistics. This impact is minimal, as seen from the following:
+
+![Thomas High School Summary Original](https://github.com/lllohr/School_District_Analysis/blob/main/Resources/Thomas_High_School_originalpng.png)
+
+![Thomas High School Summary Revised](https://github.com/lllohr/School_District_Analysis/blob/main/Resources/Thomas_High_School_revised.png)
+
 ![Per School Summary Original](https://github.com/lllohr/School_District_Analysis/blob/main/Resources/per_school_summary_df_original.png)
 
 ![Per School Summary Revised](https://github.com/lllohr/School_District_Analysis/blob/main/Resources/per_school_summary_df_revised.png)
 
 - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+
+As can be seen from the graphics below, there was no change in Thomas High School's position relative to the other schools. 
+
 ![Top Schools Head Original](https://github.com/lllohr/School_District_Analysis/blob/main/Resources/top_schools.head_original.png)
 
 ![Top Schools Head Revised](https://github.com/lllohr/School_District_Analysis/blob/main/Resources/top_schools.head_revised.png)
+
 - What are some other possible tables and/or graphs that we could create?
+We could could possibly create a bar graph that shows the before dropping the ninth grade Thomas High School scores and after. 
 
 ### How does replacing the ninth-grade scores affect the following:
 - Math and reading scores by grade
