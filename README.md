@@ -74,6 +74,8 @@ There were no observable changes between the school size summaries before and af
 - Scores by school type
 ![Scores by School Type Original](https://github.com/lllohr/School_District_Analysis/blob/main/Resources/type_summary_original.png)
 
+There were no observable changes before and after dropping the Thomas High School 9th grade scores.
+
 ![Scores by School Type Revised](https://github.com/lllohr/School_District_Analysis/blob/main/Resources/type_summary_revised.png)
 
 ### Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
